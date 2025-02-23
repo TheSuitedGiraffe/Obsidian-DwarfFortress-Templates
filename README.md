@@ -1,4 +1,7 @@
-![dflegendsimport](https://github.com/user-attachments/assets/068f1f1f-c88d-42e6-869e-61be9380bbfc)
+# DF Legends Viewer Import Templates for Obsidian Using [JSON/CSV Importer](https://github.com/farling42/obsidian-import-json)
+
+![dflegendsimport](https://github.com/user-attachments/assets/4337bb2c-15ae-41a2-b03a-f4a372d8c8b2)
+
 
 # Preparing the XML to JSON
 Using CP437toUTF8.py convert your vanilla DF XML export to UTF8 as it uses CP437 by default. You'll want to rename your xml to world.xml, it just needs to be in the same folder as the python script when it runs.
