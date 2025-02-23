@@ -1,5 +1,5 @@
 # Preparing the XML to JSON
-Using CP437toUTF8.py convert your vanilla DF XML export to UTF8 as it uses CP437 by default. You'll want to rename your xml to world.xml
+Using CP437toUTF8.py convert your vanilla DF XML export to UTF8 as it uses CP437 by default. You'll want to rename your xml to world.xml, it just needs to be in the same folder as the python script when it runs.
 After it is converted, use xmltojson.py to convert the xml to JSON.
 
 # Preparing the Obsidian Valut
