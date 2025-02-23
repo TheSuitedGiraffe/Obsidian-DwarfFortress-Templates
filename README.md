@@ -167,10 +167,35 @@ This field is very important. It denotes which main array the import is going to
 
 So if I was importing regions, I would want to use *df_world.regions.region*, *df_world.artifacts.artifact*, etc.
 
+### For the templates provided:
+df_artifacts_TSG_012425 > df_world.artifacts.artifact
+df_entities_TSG_012425 > df_world.entities.entity
+df_HistoricalFigures_TSG_012425 > df_world.historical_figures.histroical_figure
+df_musicalforms_TSG_012425 > df_world.musical_forms.musical_form
+df_poeticforms_TSG_012425 > df_world.poetic_forms.poetic_form
+df_regions_TSG_012425 > df_world.regions.region
+df_sites_TSG_012425 > df_world.sites.site
+df_writtencontents_TSG_012425 > df_world.written_contents.written_content
+
+(Not Finished) df_HistoricalEvents_TSG_012525 > df_world.historical_events.historical_events
+
+
 ### Field to use as Note name
 Allows you to use imported data to name files how they appear in the list. The data value you want to have goes inside a ${ }, you can also use multiple fields or plain text in here in addition to a data.
 
 Make sure you use some type of import data, otherwise the importer will just overwrite on the same file over and over again.
+
+### For the templates provided:
+df_artifacts_TSG_012425 > artifact${id}
+df_entities_TSG_012425 > eid${id}
+df_HistoricalFigures_TSG_012425 > hfid${id}
+df_musicalforms_TSG_012425 > musical_forms${id}
+df_poeticforms_TSG_012425 > poetic_forms${id}
+df_regions_TSG_012425 > regions${id}
+df_sites_TSG_012425 > sites${id}
+df_writtencontents_TSG_012425 > written_content${id}
+df_HistoricalEvents_TSG_012525 > heid${id}
+
 
 ### How to handle existing Notes
 I have this set to replace because I will import, make a change, then delete and reimport. Feel free to mess with this.
